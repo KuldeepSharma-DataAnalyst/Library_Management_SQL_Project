@@ -35,3 +35,14 @@ The project simulates the everyday operations of a library — including book le
 - One publisher can publish many books.
 - One branch can manage many borrow records.
 - One member can borrow multiple books.
+
+### 📊 ER Diagram
+The ER diagram (included as PDF) shows:
+- Entities: Books, Members, Publishers, Branches, Borrow Records
+- Relationships: One-to-Many and Many-to-Many (via borrow records)
+
+### 🧠 Key Learnings
+- How to normalize data and create relationships between entities.
+- How to write SQL JOINs, GROUP BY, and aggregate queries.
+- How to import SQL data using Python.
+- How to represent a database schema visually using ERD.
