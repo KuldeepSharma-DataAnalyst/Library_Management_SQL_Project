@@ -19,7 +19,6 @@ The project simulates the everyday operations of a library — including book le
 | `schema.sql`                   | Contains all **table creation** statements (DDL). Defines tables like `Publishers`, `Library_Branch`, `Books`, `Members`, and `Borrow_Records`. |
 | `data.sql`                     | Includes all **INSERT** statements with Indian-context sample data (authors, publishers, branch locations, etc.).                               |
 | `queries.sql`                  | Holds 10–12 SQL **queries** for data analysis and management.                                                                                   |
-| `import_data.py`               | Python script to automatically import schema and data into MySQL.                                                                               |
 | `ER_Diagram_Library_Final.pdf` | Entity Relationship Diagram showing table relationships.                                                                                        |
 | `README.md`                    | Project description and setup guide (this file).                                                                                                |
 
@@ -44,5 +43,4 @@ The ER diagram (included as PDF) shows:
 ### 🧠 Key Learnings
 - How to normalize data and create relationships between entities.
 - How to write SQL JOINs, GROUP BY, and aggregate queries.
-- How to import SQL data using Python.
 - How to represent a database schema visually using ERD.
